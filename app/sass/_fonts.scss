@@ -1,0 +1,12 @@
+@import "_mixins/font-face";
+//@mixin fontface($name, $file, $weight: normal, $style: normal){
+
+@include fontface('Montserrat', 'Montserrat/Montserrat-Black.ttf');
+@include fontface('Montserrat', 'Montserrat/Montserrat-Bold.ttf');
+@include fontface('Montserrat', 'Montserrat/Montserrat-ExtraBold.ttf');
+@include fontface('Montserrat', 'Montserrat/Montserrat-ExtraLight.ttf');
+@include fontface('Montserrat', 'Montserrat/Montserrat-Light.ttf');
+@include fontface('Montserrat', 'Montserrat/Montserrat-Medium.ttf');
+@include fontface('Montserrat', 'Montserrat/Montserrat-Regular.ttf');
+@include fontface('Montserrat', 'Montserrat/Montserrat-SemiBold.ttf');
+@include fontface('Montserrat', 'Montserrat/Montserrat-Thin.ttf');
